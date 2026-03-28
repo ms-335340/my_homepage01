@@ -209,7 +209,7 @@ input,textarea,button{font:inherit}
   .hero-layout{gap:28px}
   .hero-content h1{font-size:1.95rem}
   .hero-text{font-size:.98rem}
-  .hero-actions{flex-direction:column}
+  .hero-actions{flex-direction:column}v
   .hero-actions .btn{width:100%}
   .hero-image-card{position:static;max-width:none;margin:16px 12px 0}
   .hero-image-badge{top:12px;right:12px;font-size:.86rem;padding:8px 12px}
@@ -219,6 +219,34 @@ input,textarea,button{font:inherit}
   .footer-inner{padding:46px 0 28px}
 }
 @media (max-width: 425px){
+  /* html{scroll-margin-top:132px} */
+  .container,.narrow{width:min(100% - 20px, var(--container-width))}
+  .section{padding:8px 0 56px 0; scroll-margin-top:145px}
+  .section-title{font-size:1.5rem}
+  .section-heading{margin-bottom:28px}
+  /* .header{position:static} */
+  .header-inner{gap:10px;min-height:auto; padding:14px 0}
+  .logo{font-size:1rem}
+  .nav-list{gap:8px 10px;flex-wrap:wrap}
+  .nav-list a{font-size:.84rem}
+  .nav-cta{padding:7px 12px}
+  .hero{padding:40px 0 56px}
+  .hero-layout{gap:22px}
+  .hero-content h1{font-size:1.65rem;line-height:1.35}
+  .hero-text{font-size:.92rem;line-height:1.7;}
+  .hero-actions{flex-direction:column; gap:12px}
+  .hero-actions .btn{width:100%}
+  .hero-image-card{position:static;max-width:none;margin:14px 0 0;padding:18px 16px}
+  .hero-image-badge{top:10px;right:10px;font-size:.8rem;padding:6px 10px}
+  .problem-grid,.lp-explain-grid,.benefits-grid,.service-grid,.strength-grid,.works-grid,.price-grid,.flow-list{grid-template-columns:1fr}
+  .problem-card,.lp-point,.benefit-card,.service-card,.strength-card,.price-card,.flow-item,.faq-item,.contact-card,.cta-box{padding:20px 18px}
+  .work-thumb{min-height:150px}
+  .footer-inner{padding:36px 0 24px}
+}
+
+
+
+@media (max-width: 375px){
   /* html{scroll-margin-top:132px} */
   .container,.narrow{width:min(100% - 20px, var(--container-width))}
   .section{padding:8px 0 56px 0; scroll-margin-top:145px}
