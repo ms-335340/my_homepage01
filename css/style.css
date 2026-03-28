@@ -22,10 +22,9 @@
 *,:before,:after{box-sizing:border-box}
 
 /* クリック時のスクロールをなめらかに */
-html{
-  scroll-behavior:smooth;
-}
-/* html{scroll-behavior:smooth;scroll-padding-top:96px} */
+html{scroll-behavior:smooth;
+  /* ヘッダー高さにジャンプしたときに合わせる */
+  scroll-margin-top:96px}
 
 body{margin:0;font-family:var(--font-base);color:var(--color-text);background:var(--color-bg);line-height:1.8}
 img{display:block;max-width:100%}
@@ -184,9 +183,9 @@ input,textarea,button{font:inherit}
   .fade-in,.fade-in.is-visible{opacity:1;transform:none;transition:none;animation:none}
 }
 
-@media (max-width: 1023px){
-  html{scroll-padding-top:132px}
-  .section{padding:10px 0 88px 0;scroll-margin-top:132px}
+@media (max-width: 1024px){
+  /* html{scroll-margin-top:137px} */
+  .section{padding:10px 0 88px 0;scroll-margin-top:136px}
   .header-inner{flex-direction:column;justify-content:center;padding:14px 0}
   .nav-list{flex-wrap:wrap;justify-content:center;gap:14px 18px}
   .hero-layout,.contact-layout,.footer-inner{grid-template-columns:1fr}
@@ -194,10 +193,10 @@ input,textarea,button{font:inherit}
   .hero-image-card{position:static;left:auto;bottom:auto;max-width:none;margin-top:18px}
   .problem-grid,.lp-explain-grid,.benefits-grid,.service-grid,.works-grid,.price-grid,.strength-grid,.flow-list{grid-template-columns:repeat(2,1fr)}
 }
-@media (max-width: 767px){
-  html{scroll-padding-top:20px}
+@media (max-width: 768px){
+  /* html{scroll-margin-top:149px} */
   .container,.narrow{width:min(100% - 28px,var(--container-width))}
-  .section{padding:10px 0 72px 0;scroll-margin-top:20px}
+  .section{padding:10px 0 72px 0;scroll-margin-top:120px}
   .section-title{font-size:1.8rem}
   .section-heading{margin-bottom:36px}
   /* .header{position:static} */
@@ -219,10 +218,10 @@ input,textarea,button{font:inherit}
   .work-thumb{min-height:180px}
   .footer-inner{padding:46px 0 28px}
 }
-@media (max-width: 424px){
-  html{scroll-padding-top:16px}
+@media (max-width: 425px){
+  /* html{scroll-margin-top:132px} */
   .container,.narrow{width:min(100% - 20px, var(--container-width))}
-  .section{padding:8px 0 56px 0; scroll-margin-top:16px}
+  .section{padding:8px 0 56px 0; scroll-margin-top:145px}
   .section-title{font-size:1.5rem}
   .section-heading{margin-bottom:28px}
   /* .header{position:static} */
