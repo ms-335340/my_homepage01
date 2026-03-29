@@ -338,7 +338,7 @@ input,textarea,button{font:inherit}
   .hero-image-card{position:static;max-width:none;margin:14px 0 0;padding:18px 16px}
   .hero-image-badge{top:10px;right:10px;font-size:.8rem;padding:6px 10px}
 
-  .hero-image-works{top: 1.2rem;left: 10px}
+  .hero-image-works{top: 1rem;left: 10px}
   .hero-overlay{gap: 5px; max-width: 100%}
   /* 各ブロック */
   .hero-overlay-item{padding: 3px 14px}
