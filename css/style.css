@@ -394,7 +394,7 @@ input,textarea,button{font:inherit}
   .flow-item-thumb{
     width:30%;
     min-height:auto;
-    aspect-ratio:16 / 10;
+    aspect-ratio:1 / 1;
     margin:0 auto;
   }
 
@@ -461,7 +461,7 @@ input,textarea,button{font:inherit}
   .flow-item-thumb{
     width:20%;
     min-height:auto;
-    aspect-ratio:16 / 10;
+    aspect-ratio:1 / 1;
     margin:0 auto;
   }
 
@@ -528,7 +528,7 @@ input,textarea,button{font:inherit}
   .flow-item-thumb{
     width:20%;
     min-height:auto;
-    aspect-ratio:16 / 10;
+    aspect-ratio:1 / 1;
     margin:0 auto;
   }
 
@@ -684,7 +684,7 @@ input,textarea,button{font:inherit}
   .flow-item-thumb{
     width:20%;
     min-height:auto;
-    aspect-ratio:16 / 10;
+    aspect-ratio:1 / 1;
     margin:0 auto;
   }
 
@@ -837,7 +837,7 @@ input,textarea,button{font:inherit}
   .flow-item-thumb{
     width:20%;
     min-height:auto;
-    aspect-ratio:16 / 10;
+    aspect-ratio:1 / 1;
     margin:0 auto;
   }
 
